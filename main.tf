@@ -20,7 +20,7 @@ resource "azurerm_mysql_server" "example" {
   resource_group_name = azurerm_resource_group.example.name
 
   administrator_login          = "mysqladminun"
-  administrator_login_password = "H@Sh1CoR3!"
+  administrator_login_password = "H@Sh1CoR3!12345"
 
   sku_name   = "B_Gen5_2"
   storage_mb = 5120
